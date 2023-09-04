@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>exam-2</title>
+    <meta name="author" content="Nima-Eghbali">
+    <script defer src="./dist/index.js" type="module"></script>
+    <link rel="stylesheet" href="dist/output.css">
+</head>
+
+<body>
+
+    <main class="w-full px-[120px]">
+        <form class="mx-auto w-[600px] mt-[90px] border-solid border-2 border-sky-500 p-9 rounded-2xl ">
+            <div class="mb-6 ">
+                <label for="user-number" class="block mb-2 text-sm font-semibold text-gray-900 dark:text-white">Number</label>
+                <input type="number" id="user-number"
+                    class="bg-gray-50 border font-sans border-gray-300 text-gray-900 text-sm font-semibold rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+                    placeholder="Enter a number" required>
+            </div>
+            <div class="flex justify-between">
+                <button type="number" id="random-number"
+                class="shadow-2xl text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm  sm:w-auto px-5 py-2.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">Make Random Number</button>
+
+                <button type="prime-number" id="prime-number"
+                class="shadow-2xl  text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm  sm:w-auto px-5 py-2.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">Prime number</button>
+
+                <button type="clear-input" id="clear-input"
+                class="shadow-2xl  text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm  sm:w-auto px-5 py-2.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">Clear Input</button>
+
+            </div>
+        </form>
+        
+    </main>
+
+
+</body>
+
+</html>
